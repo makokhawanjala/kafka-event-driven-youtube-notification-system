@@ -1,6 +1,6 @@
 # config.py
 config = {
-    "google_api_key": "AIzaSyD-dYgKO1TY_DxRdH1gfRBkjuLH-6BCx3U",
+    "google_api_key": "******",
     "youtube_playlist_id": "PLr3-bEi1N4khKZm2u6Q8pOLO-WNZrKDHn",
     "kafka": {
         "bootstrap.servers": "pkc-12576z.us-west2.gcp.confluent.cloud:9092",
