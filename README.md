@@ -1,10 +1,14 @@
 
 # Kafka Event-Driven YouTube Notification System
 This project implements a real-time event notification system that monitors specific YouTube videos for changes (likes, views, comments) and sends alerts to a user via Telegram. The system uses Python for data collection and Apache Kafka for streaming and processing events.
-
+---
 # YouTube Watcher Project Setup
 
+---
+
 ## Step 1: Setting Up Your Working Environment
+
+---
 
 ### 1. Create a Project Directory
 Open your terminal and run:
@@ -12,6 +16,7 @@ Open your terminal and run:
 mkdir youtube_watcher_project
 cd youtube_watcher_project
 ```
+---
 
 ### 2. Set Up a Python Virtual Environment (ensure you have Python 3.8.10):
 Install virtualenv if it’s not installed, Create a new virtual environment and Activate the virtual environment
@@ -20,16 +25,24 @@ pip install virtualenv
 virtualenv venv 
 source venv/bin/activate
 ```
+---
+
 ### 3. Install Necessary Packages:
 ```bash
 pip install -r requirements.txt
 ```
+---
+
 ### 4. Execute the Python Script
 Run the Python Script. Execute the youtube_watcher.py script:
 ```bash
 python youtube_watcher.py
 ```
+---
+
 ### 4. Interacting with External Services
+
+---
 
 #### Login to Confluent Cloud
 
@@ -37,7 +50,6 @@ python youtube_watcher.py
 2. Go to [https://login.confluent.io/](https://login.confluent.io/).
 3. Sign in with your Confluent credentials.
 
-> **Note:** Use secure login methods. Do not hardcode or share credentials publicly.
 
 ---
 
